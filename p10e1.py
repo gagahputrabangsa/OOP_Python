@@ -1,5 +1,5 @@
 from shapes import Triangle, Square, Rectangle, Circle, Parallelogram
-# Contoh penggunaan
+# Usage
 print("==========================\nNama: Gagah Putra Bangsa\nNim: 064002100036\n==========================\nPraktikum 10\n==========================")
 triangle = Triangle(5, 8)
 print("Luas Segitiga:", triangle.calculate_area())
