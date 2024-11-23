@@ -21,3 +21,22 @@ class BankAccount:
         print(f"Account Number: {self.account_number}")
         print(f"Owner Name: {self.owner_name}")
         print(f"Balance: {self.balance}")
+
+if __name__ == "__main__":
+    # instance
+    account1 = BankAccount("123456", "Alice", 500)
+
+    # Display 
+    account1.display_account_info()
+
+    # Deposit
+    account1.deposit(200)
+
+    # Withdraw money
+    account1.withdraw(150)
+
+    # Attempt to withdraw more than the balance
+    account1.withdraw(600)
+
+    # Final account stats
+    account1.display_account_info()
