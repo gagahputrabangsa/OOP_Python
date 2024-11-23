@@ -16,3 +16,8 @@ class BankAccount:
             print(f"Withdrew {amount}. New balance: {self.balance}")
         else:
             print("Insufficient balance or invalid withdrawal amount.")
+    def display_account_info(self):
+        print("\n--- Account Information ---")
+        print(f"Account Number: {self.account_number}")
+        print(f"Owner Name: {self.owner_name}")
+        print(f"Balance: {self.balance}")
