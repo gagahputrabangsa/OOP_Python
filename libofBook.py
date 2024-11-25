@@ -12,3 +12,7 @@ class Book:
 # Create book objects
 book1 = Book("The Lord of the Rings", "J.R.R. Tolkien", 1954)
 book2 = Book("Pride and Prejudice", "Jane Austen", 1813)
+# Display book information
+book1.display_info()
+print()
+book2.display_info()
