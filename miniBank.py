@@ -16,5 +16,6 @@ class RekeningBank:
 
 # Contoh penggunaan
 rekening1 = RekeningBank("Ali", 1000000)
-
+rekening1.simpan_uang(500000)
+rekening1.tarik_uang(300000)
 
