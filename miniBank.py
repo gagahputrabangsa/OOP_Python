@@ -6,4 +6,11 @@ class RekeningBank:
         self.saldo += jumlah
         print(f"Saldo {self.nama} bertambah {jumlah}. Saldo saat ini: {self.saldo}")
 
-    
+    def tarik_uang(self, jumlah):
+        if jumlah > self.saldo:
+            print("Saldo tidak mencukupi.")
+        else:
+            self.saldo -= jumlah
+            print(f"{jumlah} berhasil ditarik. Saldo saat ini: {self.saldo}")
+
+
