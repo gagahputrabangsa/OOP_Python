@@ -14,3 +14,7 @@ class RekeningBank:
             print(f"{jumlah} berhasil ditarik. Saldo saat ini: {self.saldo}")
 
 
+# Contoh penggunaan
+rekening1 = RekeningBank("Ali", 1000000)
+
+
