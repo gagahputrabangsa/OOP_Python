@@ -12,3 +12,6 @@ print("Luas Persegi Panjang:", rectangle.calculate_area())
 
 circle = Circle(3)
 print("Luas Lingkaran:", circle.calculate_area())
+
+parallelogram = Parallelogram(5, 8)
+print("Luas Jajar Genjang:", parallelogram.calculate_area())
