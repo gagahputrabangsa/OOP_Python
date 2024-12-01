@@ -10,3 +10,5 @@ print("Luas Persegi:", square.calculate_area())
 rectangle = Rectangle(5, 10)
 print("Luas Persegi Panjang:", rectangle.calculate_area())
 
+circle = Circle(3)
+print("Luas Lingkaran:", circle.calculate_area())
