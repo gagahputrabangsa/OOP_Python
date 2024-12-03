@@ -5,6 +5,10 @@ class Mahasiswa:
         self.fakultas = fakultas
         self.hobi = hobi
         
+ def __str__(self):
+        return f"{self.nama} {self.nim}\n-----PROGRAM MENAMPILKAN IDENTITAS-----\nNama saya adalah {self.nama} NIM saya {self.nim}. \nSaya dari fakultas {self.fakultas}.\nHobi saya adalah {self.hobi}"
+
+
 
 
    
