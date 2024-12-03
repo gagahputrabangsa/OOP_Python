@@ -14,3 +14,8 @@ class Mahasiswa:
     def info_persegi_panjang(self):
         return f"{self.nama} {self.nim}\n----->PROGRAM MENGHITUNG LUAS PERSEGI PANJANG<-----\nPersegi panjang dengan panjang {self.panjang}cm dan lebar {self.lebar}cm memiliki luas sebesar {self.hitung_luas_persegi_panjang()}cm^2"
 
+if __name__ == "__main__":
+    mhs = Mahasiswa()
+    mhs.panjang = 20
+    mhs.lebar = 12
+    print(mhs.info_persegi_panjang())
