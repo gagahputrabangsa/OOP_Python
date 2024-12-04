@@ -38,5 +38,20 @@ if __name__ == "__main__":
     murid3 = Student("I Made N A")
     murid4 = Student("Nathanael W")
 
+    # method access
+    pribadi = Student.data_pribadi
+    print(pribadi)
+    murid1.set_nim("064002100036")
+    murid1.set_nilai(100)
+
+    murid2.set_nim("064002100043")
+    murid2.set_nilai(99)
+
+    murid3.set_nim("064002100020")
+    murid3.set_nilai(95)
+
+    murid4.set_nim("064002100030")
+    murid4.set_nilai(80)
+
 
 
