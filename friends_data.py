@@ -23,4 +23,10 @@ class Student:
         print("NIM:", self.nim)
         print("Nilai:", self.nilai)
 
-    
+        @staticmethod
+    def print_data_teman(nomor_teman, teman):
+        print("--- Data Teman", nomor_teman, "---")
+        teman.print_data()
+
+
+
