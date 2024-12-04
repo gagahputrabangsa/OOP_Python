@@ -55,3 +55,9 @@ if __name__ == "__main__":
 
 
 
+    # print details
+    murid1.print_data()
+    Student.print_data_teman(1, murid2)
+    Student.print_data_teman(2, murid3)
+    Student.print_data_teman(3, murid4)
+
