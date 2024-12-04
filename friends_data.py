@@ -28,5 +28,15 @@ class Student:
         print("--- Data Teman", nomor_teman, "---")
         teman.print_data()
 
+# main block function
+if __name__ == "__main__":
+    
+    
+    # Obj Creation
+    murid1 = Student("Gagah Putra B")
+    murid2 = Student("Agfan Herru Pratama H")
+    murid3 = Student("I Made N A")
+    murid4 = Student("Nathanael W")
+
 
 
