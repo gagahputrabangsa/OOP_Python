@@ -16,7 +16,7 @@ def main():
         return f'Praktikum 5 ({name} - {nim})'
 if __name__ == "__main__":
     pral = Prak5e1()
-    ident = pral.name('Gagah Putra Bangsa', '064002100036')
+    ident = pral.name('urname', '06xxxxxxxxxx')
     print(ident)
     print("---------------ELKOM 1---------------")
     Prak5e1.main()
