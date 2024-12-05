@@ -6,4 +6,10 @@ def main():
             film = input("Film favorit KE-{}: ".format(i+1))
             films.append(film)
         
-        
+        print("==========DAFTAR FILM FAVORIT==========")
+        loops = 1
+        for film in films:
+            print(f"{loops}.) {film}")
+            loops+=1
+    
+   
