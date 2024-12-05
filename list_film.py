@@ -12,4 +12,7 @@ def main():
             print(f"{loops}.) {film}")
             loops+=1
     
-   
+    def name(self, name, nim):
+        return f'Praktikum 5 ({name} - {nim})'
+
+
