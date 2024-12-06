@@ -17,3 +17,6 @@ film4 = Film("Kuntilanak 2", 2020, 'saipul jamilah')
 film5 = Film("Jane Doe", 2022, 'james wan')
 
 
+# list of object film
+people_list = [film1, film2, film3, film4, film5]
+
