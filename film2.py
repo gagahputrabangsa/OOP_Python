@@ -27,4 +27,8 @@ person = Film('', 0, '')
 persons = person.person('nama', 'nim')
 print(persons.center(93))
 
-
+# access with loop
+loops = 1
+for film in people_list:
+    print(f'Film favorit ke-{loops}:\nJudul: {film.film}\nRilis: {film.year}\nDirector: {film.director}\n=================')
+    loops += 1
