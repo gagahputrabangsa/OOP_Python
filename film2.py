@@ -22,4 +22,9 @@ people_list = [film1, film2, film3, film4, film5]
 
 #  object film
 person = Film('', 0, '')
+# call person func
+
+persons = person.person('nama', 'nim')
+print(persons.center(93))
+
 
