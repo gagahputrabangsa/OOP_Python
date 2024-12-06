@@ -9,3 +9,11 @@ def __init__(self, film, year, director):
         return f'Prak 5 ({name} - {id})\n-------------------ELKOM 2-------------------'
 
 
+# obj
+film1 = Film("Alice in the hood", 1999, 'james wan')
+film2 = Film("Makan dimakan", 2001, 'wg brother')
+film3 = Film("Naruto The legend of spiderman", 2015, 'uzumaki kirito')
+film4 = Film("Kuntilanak 2", 2020, 'saipul jamilah')
+film5 = Film("Jane Doe", 2022, 'james wan')
+
+
