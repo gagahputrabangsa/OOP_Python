@@ -24,4 +24,5 @@ class Dog:
 if __name__ == "__main__":
     tuffy = Dog("Tuffy", "Papillon", 5, "white")
     max_dog = Dog("Max", "Great Dane", 7, "black")
-
+    print(tuffy.message())
+    print(max_dog.message())
