@@ -17,4 +17,7 @@ class Dog:
     def get_color(self):
         return self.color
 
-    
+    def message(self):
+        return f"Hi, my name is {self.get_name()}.\nMy breed, age, and color are {self.get_breed()}, {self.get_age()}, {self.get_color()}."
+
+
