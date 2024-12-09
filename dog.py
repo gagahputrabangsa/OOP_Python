@@ -14,5 +14,7 @@ class Dog:
     def get_age(self):
         return self.age
 
-    
+    def get_color(self):
+        return self.color
 
+    
