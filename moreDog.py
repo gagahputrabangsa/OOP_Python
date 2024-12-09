@@ -17,3 +17,10 @@ class Dog:
                 f"Jenis, Usia, dan Warna saya adalah {self.jenis}, {self.umur}, {self.warna}")
 
 
+# Fungsi main
+if __name__ == "__main__":
+    tuffy = Dog("Tuffy", "papillon", 5, "white")
+    max = Dog("Max", "Great Dane", 7, "black")
+    print(tuffy.message())
+    print(max.message())
+
