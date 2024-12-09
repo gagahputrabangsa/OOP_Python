@@ -24,3 +24,11 @@ if __name__ == "__main__":
     print(tuffy.message())
     print(max.message())
 
+    lala = None
+    unknown = Dog("chihuahua")
+
+    lala = unknown
+    lala.set_name("Lala")
+    lala.set_color("brown")
+    print(lala.message())
+
