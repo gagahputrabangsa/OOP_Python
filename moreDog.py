@@ -12,4 +12,8 @@ class Dog:
     def set_color(self, warna):
         self.warna = warna
 
-    
+    def message(self):
+        return (f"Halo nama saya {self.nama}.\n"
+                f"Jenis, Usia, dan Warna saya adalah {self.jenis}, {self.umur}, {self.warna}")
+
+
