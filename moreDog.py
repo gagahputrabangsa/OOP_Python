@@ -6,3 +6,7 @@ class Dog:
         self.umur = umur
         self.warna = warna
 
+    def set_name(self, nama):
+        self.nama = nama
+
+    
