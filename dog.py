@@ -21,3 +21,7 @@ class Dog:
         return f"Hi, my name is {self.get_name()}.\nMy breed, age, and color are {self.get_breed()}, {self.get_age()}, {self.get_color()}."
 
 
+if __name__ == "__main__":
+    tuffy = Dog("Tuffy", "Papillon", 5, "white")
+    max_dog = Dog("Max", "Great Dane", 7, "black")
+
