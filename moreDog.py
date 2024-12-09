@@ -32,3 +32,11 @@ if __name__ == "__main__":
     lala.set_color("brown")
     print(lala.message())
 
+    unknown = tuffy
+    unknown.set_name("Max")
+    tuffy = max
+    max.set_name("Tuffy")
+    max = unknown
+    print(tuffy.message())
+    print(max.message())
+
