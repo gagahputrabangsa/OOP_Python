@@ -9,4 +9,7 @@ class Dog:
     def set_name(self, nama):
         self.nama = nama
 
+    def set_color(self, warna):
+        self.warna = warna
+
     
