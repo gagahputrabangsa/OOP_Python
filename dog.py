@@ -5,5 +5,14 @@ class Dog:
         self.age = age
         self.color = color
 
+    def get_name(self):
+        return self.name
+
+    def get_breed(self):
+        return self.breed
+
+    def get_age(self):
+        return self.age
+
     
 
