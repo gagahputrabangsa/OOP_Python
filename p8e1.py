@@ -31,4 +31,20 @@ class Lainnya(Awal):
 
 
 
+def main():
+    dosen = Dosen(150000, "DOSEN")
+    staff = Staff(150000, "STAFF")
+    lainnya = Lainnya(150000, "LAINNYA")
+    nama = 'Gagah Putra Bangsa'
+    nim = '064002100036'
+    print(f"===========================\nNama: {nama} ||\n Nim: {nim}       ||\n===========================")
+    dosen.print_gaji()
+    staff.print_gaji()
+    lainnya.print_gaji()
+    
+
+
+if __name__ == "__main__":
+    main()
+
 
