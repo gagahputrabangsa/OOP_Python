@@ -14,5 +14,10 @@ class Volume:
 # Membuat objek dari kelas Volume
 v = Volume()
 
+print("===================\nNama: Gagah Putra B\nNim: 064002100036\n===================")
+# calc cubic's vol
+sisi_kubus = 5
+volume_kubus = v.hitung_volume(sisi=sisi_kubus)
+print(f"Volume kubus dengan sisi {sisi_kubus} adalah: {volume_kubus}cm^3")
 
 
