@@ -11,3 +11,8 @@ class Volume:
         else:
             return "Parameter tidak valid"
 
+# Membuat objek dari kelas Volume
+v = Volume()
+
+
+
