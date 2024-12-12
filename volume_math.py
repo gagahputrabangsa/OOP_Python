@@ -20,4 +20,10 @@ sisi_kubus = 5
 volume_kubus = v.hitung_volume(sisi=sisi_kubus)
 print(f"Volume kubus dengan sisi {sisi_kubus} adalah: {volume_kubus}cm^3")
 
+# calc beam's vol
+panjang_balok = 4
+lebar_balok = 3
+tinggi_balok = 6
+volume_balok = v.hitung_volume(panjang=panjang_balok, lebar=lebar_balok, tinggi=tinggi_balok)
+print(f"Volume balok dengan panjang {panjang_balok}, lebar {lebar_balok}, dan tinggi {tinggi_balok} adalah: {volume_balok}cm^3")
 
