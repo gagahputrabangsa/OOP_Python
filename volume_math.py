@@ -3,11 +3,11 @@ import math
 class Volume:
     def hitung_volume(self, sisi=None, panjang=None, lebar=None, tinggi=None, jari_jari=None):
         if sisi is not None:
-            return sisi ** 3  # Volume kubus
+            return sisi ** 3  #cubic
         elif panjang is not None and lebar is not None and tinggi is not None:
-            return panjang * lebar * tinggi  # Volume balok
+            return panjang * lebar * tinggi  # beam
         elif jari_jari is not None and tinggi is not None:
-            return math.pi * jari_jari ** 2 * tinggi  # Volume tabung
+            return math.pi * jari_jari ** 2 * tinggi  # tube
         else:
             return "Parameter tidak valid"
 
