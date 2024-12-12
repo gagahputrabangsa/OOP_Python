@@ -27,3 +27,10 @@ tinggi_balok = 6
 volume_balok = v.hitung_volume(panjang=panjang_balok, lebar=lebar_balok, tinggi=tinggi_balok)
 print(f"Volume balok dengan panjang {panjang_balok}, lebar {lebar_balok}, dan tinggi {tinggi_balok} adalah: {volume_balok}cm^3")
 
+# calc tube's vol
+jari_jari_tabung = 2
+tinggi_tabung = 8
+volume_tabung = v.hitung_volume(jari_jari=jari_jari_tabung, tinggi=tinggi_tabung)
+print(f"Volume tabung dengan jari-jari {jari_jari_tabung} dan tinggi {tinggi_tabung} adalah: {volume_tabung}cm^3")
+
+
