@@ -11,7 +11,7 @@ class Volume:
         else:
             return "Parameter tidak valid"
 
-# Membuat objek dari kelas Volume
+#obj creating
 v = Volume()
 
 print("===================\nNama: Gagah Putra B\nNim: 064002100036\n===================")
