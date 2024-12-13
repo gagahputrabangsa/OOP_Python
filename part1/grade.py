@@ -26,4 +26,10 @@ def get_grade(self):
     else:
       return "E"
 
+name= input('Name: ')
+id = input('Id: ')
+value = float(input("Input Score: "))
+value_grade = gradeval(value)
+grade = value_grade.get_grade()
+
 
