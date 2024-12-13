@@ -32,4 +32,6 @@ value = float(input("Input Score: "))
 value_grade = gradeval(value)
 grade = value_grade.get_grade()
 
-
+print(f'\n---  Practice Data OOP 2024  ---')
+print(f"name: {name}\nid: {id}")
+print(f"Grade: {grade}")
