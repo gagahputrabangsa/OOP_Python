@@ -64,3 +64,8 @@ class PrismaSegitiga(BangunRuang):
 
 
 
+print('================\nNama: urname \nNim: urid\n================')
+kubus = Kubus(5)
+print("Luas Kubus:", kubus.luas())
+print("Volume Kubus:", kubus.volume())
+
