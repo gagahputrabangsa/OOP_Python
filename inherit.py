@@ -69,3 +69,18 @@ kubus = Kubus(5)
 print("Luas Kubus:", kubus.luas())
 print("Volume Kubus:", kubus.volume())
 
+balok = Balok(3, 4, 5)
+print("Luas Balok:", balok.luas())
+print("Volume Balok:", balok.volume())
+
+bola = Bola(7)
+print("Luas Bola:", bola.luas())
+print("Volume Bola:", bola.volume())
+
+silinder = Silinder(4, 6)
+print("Luas Silinder:", silinder.luas())
+print("Volume Silinder:", silinder.volume())
+
+prisma = PrismaSegitiga(8, 6, 4)
+print("Luas Prisma Segitiga:", prisma.luas())
+print("Volume Prisma Segitiga:", prisma.volume())
