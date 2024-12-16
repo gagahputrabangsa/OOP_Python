@@ -70,3 +70,13 @@ class CustomWidget(QWidget):
         self.hobby_textbox.clear()
         self.label.setText("Masukkan detail Anda:")
 
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle("Aplikasi Input Detail")
+        
+        self.widget = CustomWidget()
+        self.setCentralWidget(self.widget)
+        
+
