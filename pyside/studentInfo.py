@@ -80,3 +80,7 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.widget)
         
 
+app = QApplication([])
+window = MainWindow()
+window.show()
+app.exec_()
