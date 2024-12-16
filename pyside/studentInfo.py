@@ -64,3 +64,9 @@ class CustomWidget(QWidget):
             self.label.setText(f"Halo, {name}!\nNIM Anda adalah {nim}\ndan hobi Anda adalah {hobby}.")
 
 
+    def reset(self):
+        self.name_textbox.clear()
+        self.nim_textbox.clear()
+        self.hobby_textbox.clear()
+        self.label.setText("Masukkan detail Anda:")
+
