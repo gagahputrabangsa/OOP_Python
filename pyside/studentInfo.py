@@ -41,3 +41,26 @@ class CustomWidget(QWidget):
         self.button.setStyleSheet("background-color: #82E0AA ;")
         self.reset_button.setStyleSheet("background-color: #E9F5AA;")
 
+    def greet(self):
+        name = self.name_textbox.text()
+        nim = self.nim_textbox.text()
+        hobby = self.hobby_textbox.text()
+
+        if not name and not nim and not hobby:
+            QMessageBox.warning(self, "Peringatan", "Semua field harus diisi!")
+        elif not name:
+             QMessageBox.warning(self, "Peringatan", "Nama Belum diisi!")
+        elif not nim:
+             QMessageBox.warning(self, "Peringatan", "Nim Belum diisi!")
+        else:
+            try:
+                int(nim)
+            except ValueError:
+                QMessageBox.warning(self, "Peringatan", "Nim harus berupa angka")
+                return
+        if not hobby:
+             QMessageBox.warning(self, "Peringatan", "Hobby Belum diisi!")
+        else:
+            self.label.setText(f"Halo, {name}!\nNIM Anda adalah {nim}\ndan hobi Anda adalah {hobby}.")
+
+
