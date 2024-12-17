@@ -24,3 +24,12 @@ class p9e2:
         else:
             return "Unsupported types for addition"
 
+    @staticmethod
+    def tambah_int(x, y):
+        return x + y
+
+    @staticmethod
+    def tambah_double(x, y):
+        return x + y
+
+
