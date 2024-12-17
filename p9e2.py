@@ -14,3 +14,13 @@ print("float:", myNum2)
 
 
 
+class p9e2:
+    @staticmethod
+    def tambah(x, y):
+        if isinstance(x, int) and isinstance(y, int):
+            return p9e2.tambah_int(x, y)
+        elif isinstance(x, float) and isinstance(y, float):
+            return p9e2.tambah_double(x, y)
+        else:
+            return "Unsupported types for addition"
+
