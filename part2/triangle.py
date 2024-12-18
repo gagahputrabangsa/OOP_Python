@@ -17,3 +17,9 @@ def menu(self):
         return perimeter
 
 
+    def calculate_area(self):
+        base = float(input("Enter base: "))
+        height = float(input("Enter height: "))
+        area = 0.5 * base * height
+        return area
+
