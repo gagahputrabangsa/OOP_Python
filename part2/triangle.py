@@ -39,3 +39,8 @@ def menu(self):
         print("\nThank you for using this program!")
 
 
+# Example Usage
+name = input("Name: ")
+nim = input("NIM: ")
+triangle = Triangle(name, nim)
+triangle.run()
