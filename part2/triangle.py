@@ -23,3 +23,19 @@ def menu(self):
         area = 0.5 * base * height
         return area
 
+    def run(self):
+        self.menu()
+        choice = int(input("Enter choice: "))
+
+        if choice == 1:
+            perimeter = self.calculate_perimeter()
+            print(f"\nTriangle Perimeter: {perimeter:.1f} cm")
+        elif choice == 2:
+            area = self.calculate_area()
+            print(f"\nTriangle Area: {area:.1f} cm^2")
+        else:
+            print("Invalid choice!")
+
+        print("\nThank you for using this program!")
+
+
