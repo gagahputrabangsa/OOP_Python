@@ -54,3 +54,10 @@ if __name__ == "__main__":
     murid4.set_nim("064002100030")
     murid4.set_nilai(80)
 
+    
+    # print details
+    murid1.print_data()
+    Student.print_data_teman(1, murid2)
+    Student.print_data_teman(2, murid3)
+    Student.print_data_teman(3, murid4)
+
