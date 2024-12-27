@@ -29,3 +29,7 @@ class Student:
         teman.print_data()
 
 
+# main block function
+if __name__ == "__main__":
+    
+    
