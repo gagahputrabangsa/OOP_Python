@@ -8,5 +8,11 @@ class MenuItem:
         return f"{self.name} - ${self.price:.2f} ({self.description})"
 
 
+class Order:
+    def __init__(self):
+        self.items = []
 
+    def add_item(self, menu_item):
+        self.items.append(menu_item)
+        print(f"Added {menu_item.name} to the order.")
 
