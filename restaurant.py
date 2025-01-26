@@ -67,7 +67,6 @@ if __name__ == "__main__":
     # View the order
     order.view_order()
 
-
-
-
+    # Clear the order
+    order.clear_order()
 
