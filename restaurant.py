@@ -52,5 +52,8 @@ class Restaurant:
 if __name__ == "__main__":
     # Create a restaurant and add menu items
     restaurant = Restaurant("The Gourmet Spot")
+    restaurant.add_menu_item(MenuItem("Burger", 8.99, "A juicy beef burger with lettuce, tomato, and cheese."))
+    restaurant.add_menu_item(MenuItem("Pizza", 12.99, "12-inch margherita pizza with fresh mozzarella and basil."))
+    restaurant.add_menu_item(MenuItem("Salad", 7.49, "A fresh garden salad with a choice of dressing."))
 
 
