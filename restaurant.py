@@ -64,6 +64,9 @@ if __name__ == "__main__":
         # Simulate adding items to the order
     order.add_item(restaurant.menu[0])  # Adding Burger
     order.add_item(restaurant.menu[2])  # Adding Salad
+    # View the order
+    order.view_order()
+
 
 
 
