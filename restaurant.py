@@ -48,5 +48,9 @@ class Restaurant:
             for index, item in enumerate(self.menu, start=1):
                 print(f"{index}. {item}")
 
+# Example Usage
+if __name__ == "__main__":
+    # Create a restaurant and add menu items
+    restaurant = Restaurant("The Gourmet Spot")
 
 
