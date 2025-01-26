@@ -32,4 +32,21 @@ class Order:
         self.items = []
         print("Order cleared.")
 
+class Restaurant:
+    def __init__(self, name):
+        self.name = name
+        self.menu = []
+
+    def add_menu_item(self, menu_item):
+        self.menu.append(menu_item)
+
+    def display_menu(self):
+        if not self.menu:
+            print("The menu is empty!")
+        else:
+            print(f"\n{self.name} Menu:")
+            for index, item in enumerate(self.menu, start=1):
+                print(f"{index}. {item}")
+
+
 
