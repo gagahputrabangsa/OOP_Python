@@ -70,3 +70,6 @@ if __name__ == "__main__":
     # Clear the order
     order.clear_order()
 
+        # View the order again
+    order.view_order()
+
