@@ -16,3 +16,20 @@ class Order:
         self.items.append(menu_item)
         print(f"Added {menu_item.name} to the order.")
 
+    def view_order(self):
+        if not self.items:
+            print("Your order is empty!")
+        else:
+            print("\nYour Order:")
+            for index, item in enumerate(self.items, start=1):
+                print(f"{index}. {item}")
+            print(f"Total: ${self.calculate_total():.2f}")
+
+    def calculate_total(self):
+        return sum(item.price for item in self.items)
+
+    def clear_order(self):
+        self.items = []
+        print("Order cleared.")
+
+
