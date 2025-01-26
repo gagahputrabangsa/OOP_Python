@@ -58,5 +58,9 @@ if __name__ == "__main__":
     
     # Display the menu
     restaurant.display_menu()
+    
+    # Create an order
+    order = Order()
+
 
 
